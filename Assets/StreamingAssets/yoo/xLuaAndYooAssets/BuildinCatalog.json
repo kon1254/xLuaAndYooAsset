@@ -1,0 +1,19 @@
+{
+    "FileVersion": "1.0.0",
+    "PackageName": "xLuaAndYooAssets",
+    "PackageVersion": "2025-05-30-902",
+    "Wrappers": [
+        {
+            "BundleGUID": "7cf7f2faec9b31b1ad8f81a33890a172",
+            "FileName": "7cf7f2faec9b31b1ad8f81a33890a172.bundle"
+        },
+        {
+            "BundleGUID": "9afb8efa6d084f012a272d3b7eeb9419",
+            "FileName": "9afb8efa6d084f012a272d3b7eeb9419.bundle"
+        },
+        {
+            "BundleGUID": "f0cd44db7a6941ed85cc94262a342c1c",
+            "FileName": "f0cd44db7a6941ed85cc94262a342c1c.bundle"
+        }
+    ]
+}

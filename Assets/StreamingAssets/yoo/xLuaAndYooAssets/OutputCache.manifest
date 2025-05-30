@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 4036982574
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assets_gameresources_game.bundle
+      Dependencies: {}
+    Info_1:
+      Name: assets_gameresources_game_manager.bundle
+      Dependencies: {}
+    Info_2:
+      Name: assets_gameresources.bundle
+      Dependencies: {}

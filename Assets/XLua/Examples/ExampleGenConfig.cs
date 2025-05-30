@@ -77,16 +77,17 @@ public static class ExampleGenConfig
                 new List<string>(){"UnityEngine.Light", "areaSize"},
                 new List<string>(){"UnityEngine.Light", "lightmapBakeType"},
     #if UNITY_ANDROID
-                new List<string>(){"UnityEngine.Light", "SetLightDirty"},
-                new List<string>(){"UnityEngine.Light", "shadowRadius"},
-                new List<string>(){"UnityEngine.Light", "shadowAngle"},
+               
     #endif
                 new List<string>(){"UnityEngine.WWW", "MovieTexture"},
                 new List<string>(){"UnityEngine.WWW", "GetMovieTexture"},
                 new List<string>(){"UnityEngine.AnimatorOverrideController", "PerformOverrideClipListCleanup"},
     #if !UNITY_WEBPLAYER
                 new List<string>(){"UnityEngine.Application", "ExternalEval"},
-    #endif
+#endif
+                new List<string>(){"UnityEngine.Light", "SetLightDirty"},
+                new List<string>(){"UnityEngine.Light", "shadowRadius"},
+                new List<string>(){"UnityEngine.Light", "shadowAngle"},
                 new List<string>(){"UnityEngine.GameObject", "networkView"}, //4.6.2 not support
                 new List<string>(){"UnityEngine.Component", "networkView"},  //4.6.2 not support
                 new List<string>(){"System.IO.FileInfo", "GetAccessControl", "System.Security.AccessControl.AccessControlSections"},

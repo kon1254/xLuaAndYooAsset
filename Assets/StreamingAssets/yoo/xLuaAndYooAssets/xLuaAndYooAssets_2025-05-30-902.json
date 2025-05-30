@@ -1,0 +1,70 @@
+{
+    "FileVersion": "2.3.1",
+    "EnableAddressable": false,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildBundleType": 2,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "xLuaAndYooAssets",
+    "PackageVersion": "2025-05-30-902",
+    "PackageNote": "2025/5/30 15:02:11",
+    "AssetList": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Game/GameApp.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Game/Manager/UIManager.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Main.lua.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_gameresources.bundle",
+            "UnityCRC": 2576052559,
+            "FileHash": "f0cd44db7a6941ed85cc94262a342c1c",
+            "FileCRC": "9f6e5cb0",
+            "FileSize": 1405,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_gameresources_game.bundle",
+            "UnityCRC": 3783235820,
+            "FileHash": "9afb8efa6d084f012a272d3b7eeb9419",
+            "FileCRC": "4c7e6201",
+            "FileSize": 1356,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "assets_gameresources_game_manager.bundle",
+            "UnityCRC": 3352136409,
+            "FileHash": "7cf7f2faec9b31b1ad8f81a33890a172",
+            "FileCRC": "48abe025",
+            "FileSize": 1253,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+{
+    "Summary": {
+        "YooVersion": "2.3.9",
+        "UnityVersion": "2021.3.31f1c1",
+        "BuildDate": "2025/5/30 15:02:17",
+        "BuildSeconds": 4,
+        "BuildTarget": 19,
+        "BuildPipeline": "BuiltinBuildPipeline",
+        "BuildBundleType": 2,
+        "BuildPackageName": "xLuaAndYooAssets",
+        "BuildPackageVersion": "2025-05-30-902",
+        "BuildPackageNote": "2025/5/30 15:02:11",
+        "UniqueBundleName": false,
+        "EnableAddressable": false,
+        "LocationToLower": false,
+        "IncludeAssetGUID": false,
+        "AutoCollectShaders": true,
+        "IgnoreRuleName": "YooAsset.Editor.NormalIgnoreRule",
+        "ClearBuildCacheFiles": false,
+        "UseAssetDependencyDB": false,
+        "EnableSharePackRule": true,
+        "SingleReferencedPackAlone": true,
+        "EncryptionClassName": "null",
+        "FileNameStyle": 0,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "WriteLinkXML": true,
+        "CacheServerHost": "",
+        "CacheServerPort": 0,
+        "BuiltinShadersBundleName": "",
+        "MonoScriptsBundleName": "",
+        "AssetFileTotalCount": 3,
+        "MainAssetTotalCount": 3,
+        "AllBundleTotalCount": 3,
+        "AllBundleTotalSize": 4014,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Game/GameApp.lua.txt",
+            "AssetGUID": "95e0b5e1ec7040f48b254b086abcd197",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameresources_game.bundle",
+            "MainBundleSize": 1356,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Game/Manager/UIManager.lua.txt",
+            "AssetGUID": "857cd5e6604372843898e4a209f50a24",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameresources_game_manager.bundle",
+            "MainBundleSize": 1253,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/GameResources/Main.lua.txt",
+            "AssetGUID": "1c1d94ece81730a4484f53b8fbd01fdb",
+            "AssetTags": [],
+            "MainBundleName": "assets_gameresources.bundle",
+            "MainBundleSize": 1405,
+            "DependAssets": [],
+            "DependBundles": []
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "assets_gameresources.bundle",
+            "FileName": "f0cd44db7a6941ed85cc94262a342c1c.bundle",
+            "FileHash": "f0cd44db7a6941ed85cc94262a342c1c",
+            "FileCRC": "9f6e5cb0",
+            "FileSize": 1405,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameResources/Main.lua.txt",
+                    "AssetGUID": "1c1d94ece81730a4484f53b8fbd01fdb"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameresources_game.bundle",
+            "FileName": "9afb8efa6d084f012a272d3b7eeb9419.bundle",
+            "FileHash": "9afb8efa6d084f012a272d3b7eeb9419",
+            "FileCRC": "4c7e6201",
+            "FileSize": 1356,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameResources/Game/GameApp.lua.txt",
+                    "AssetGUID": "95e0b5e1ec7040f48b254b086abcd197"
+                }
+            ]
+        },
+        {
+            "BundleName": "assets_gameresources_game_manager.bundle",
+            "FileName": "7cf7f2faec9b31b1ad8f81a33890a172.bundle",
+            "FileHash": "7cf7f2faec9b31b1ad8f81a33890a172",
+            "FileCRC": "48abe025",
+            "FileSize": 1253,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/GameResources/Game/Manager/UIManager.lua.txt",
+                    "AssetGUID": "857cd5e6604372843898e4a209f50a24"
+                }
+            ]
+        }
+    ],
+    "IndependAssets": []
+}

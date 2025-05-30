@@ -9,11 +9,12 @@ public class GameLanch : MonoSingleton<GameLanch>
         base.Awake();
 
         this.gameObject.AddComponent<xLuaManager>();
+        this.gameObject.AddComponent<ResourceManager>();
     }
 
-    IEnumerator checkHotUpdate()
+    private void Start()
     {
-        yield return 0;
+        this.StartCoroutine(GameStart());
     }
 
     IEnumerator GameStart()
@@ -22,8 +23,11 @@ public class GameLanch : MonoSingleton<GameLanch>
         xLuaManager.Instance.EnterGame();
     }
 
-    private void Start()
+    IEnumerator checkHotUpdate()
     {
-        this.StartCoroutine(GameStart());
+        while (!ResourceManager.Instance.isInitialized)
+        {
+            yield return null;
+        }
     }
 }

@@ -26,13 +26,15 @@ public class xLuaManager : MonoSingleton<xLuaManager>
     public byte[] LuaScriptLoader(ref string filePath)
     {
         string scriptPath = string.Empty;
-        filePath = filePath.Replace('.', '/') + ".lua";
 #if UNITY_EDITOR
+        filePath = filePath.Replace('.', '/') + ".lua";
         scriptPath = Path.Combine(Application.dataPath, LuaScriptsFolder, filePath);
         byte[] data = File.ReadAllBytes(scriptPath);
         return data;
 #endif
-        return null;
+
+        filePath = filePath.Replace('.', '/') + ".lua.txt";
+
     }
 
     public void EnterGame()
